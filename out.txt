@@ -1,0 +1,13 @@
+init...
+    opencv + numpy confidence 1.0: 0 matches
+    first ten: []
+    Bench passed in 0.205 seconds
+
+    opencv + numpy confidence default (0.999): 1795428 matches
+    first ten: [(0, 0, 13, 13), (1, 0, 13, 13), (2, 0, 13, 13), (3, 0, 13, 13), (4, 0, 13, 13), (5, 0, 13, 13), (6, 0, 13, 13), (7, 0, 13, 13), (8, 0, 13, 13), (9, 0, 13, 13)]
+    Bench passed in 0.852 seconds
+
+    pure python method: 6690 matches
+    first ten: [(1855, 208, 13, 13), (1856, 208, 13, 13), (1857, 208, 13, 13), (1858, 208, 13, 13), (1859, 208, 13, 13), (1860, 208, 13, 13), (1861, 208, 13, 13), (1862, 208, 13, 13), (1863, 208, 13, 13), (1864, 208, 13, 13)]
+
+    Bench passed in 1.344 seconds
